@@ -1,0 +1,26 @@
+.bigImage{
+    background-image: url('../img/shopping.jpg') ;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 650px;
+}
+.bigImage:hover{
+
+        -webkit-filter:grayscale(0);
+        filter:grayscale(0);
+    
+}
+
+.headerset{
+    padding-top: 200px;
+    box-sizing: border-box;
+}
+
+.headerset h1{
+    font-size: 45px;
+}
+
+.headerset h2{
+    font-size: 48px;
+}
