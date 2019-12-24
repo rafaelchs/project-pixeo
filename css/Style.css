@@ -1,37 +1,57 @@
-.bigImage{
-    background-image: url('../img/shopping.jpg') ;
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.bigImage {
+    background-image: url('../img/shopping1.jpg');
     background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
     background-attachment: fixed;
     width: 100%;
     height: 650px;
 }
-.bigImage:hover{
 
-        -webkit-filter:grayscale(0);
-        filter:grayscale(0);
-    
-}
-
-.headerset{
+.headerset {
     padding-top: 200px;
     box-sizing: border-box;
 }
 
-.headerset h1{
+.headerset h1 {
     font-size: 45px;
 }
 
-.headerset h2{
+.headerset h2 {
     font-size: 48px;
 }
 
-.pixeoServices{
+.pixeoServices {
     padding: 100px;
     max-width: 100%;
 }
 
-.clientOpinion{
+.clientOpinion {
     max-width: 100%;
     padding: 100px;
 }
 
+.signIn {
+    max-width: 100%;
+    padding: 100px;
+}
+
+.products {
+    max-width: 100%;
+    padding: 100px;
+}
+
+.card {
+    border: 0 !important;
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.9);
+}
+
+.product-stripe .card {
+    width: 300px;
+    margin: 1rem;
+
+}
